@@ -1,5 +1,7 @@
 ## Dead Cells Mod: Machine Blowgun
 
+<img src="https://raw.githubusercontent.com/lerarosalene/dc-machine-blowgun/1ca5c77e8d9e560f7ce944f01cd4a6cdfe0fd00d/metadata/preview.jpg" width="600" />
+
 Download and install via [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2949347142).
 
 This mod:
