@@ -1,5 +1,7 @@
 ## Dead Cells Mod: Machine Blowgun
 
+Download and install via [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2949347142).
+
 This mod:
 - changes blowgun rate of fire to ~50 per second
 - changes its base poison damage from 15/sec for 2 seconds to 15000/sec for 2000 seconds
