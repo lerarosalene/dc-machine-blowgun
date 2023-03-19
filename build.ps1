@@ -19,10 +19,12 @@ function PatchAll {
     Copy-Item -Path "patches\078---Blowgun.json" -Destination "build\castledb\weapon" -Force
     Copy-Item -Path "patches\PrisonTube2.tmx" -Destination "build\tiled\tmx\Prison" -Force
     Copy-Item -Path "patches\PrisonTube2NoSkel.tmx" -Destination "build\tiled\tmx\Prison" -Force
+    Copy-Item -Path "patches\BossRushUpChoice.tmx" -Destination "build\tiled\tmx\BossRush" -Force
 
     TmxTool.exe -Collapse -TmxBin "$(pwd)\build\tiled-bin" -TmxXml "$(pwd)\build\tiled"
     Copy-Item -Path "build\tiled-bin\tmx\Prison\PrisonTube2.tmx" -Destination "build\unpacked\tiled\tmx\Prison" -Force
     Copy-Item -Path "build\tiled-bin\tmx\Prison\PrisonTube2NoSkel.tmx" -Destination "build\unpacked\tiled\tmx\Prison" -Force
+    Copy-Item -Path "build\tiled-bin\tmx\BossRush\BossRushUpChoice.tmx" -Destination "build\unpacked\tiled\tmx\BossRush" -Force
     CDBTool.exe -Collapse -Indir "$(pwd)\build\castledb" -OutCdb "$(pwd)\build\unpacked\data.cdb"
 }
 

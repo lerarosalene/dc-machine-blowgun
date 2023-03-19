@@ -8,6 +8,7 @@ This mod:
 - changes blowgun rate of fire to ~50 per second
 - changes its base poison damage from 15/sec for 2 seconds to 15000/sec for 2000 seconds
 - gives you free blowgun at start of the game (after first 2 tutorial runs)
+- gives you free blowgun in each boss rush run
 
 With this changes blowgun without upgrades and 1-1-1 stats can melt anything up to final 5BC boss.
 

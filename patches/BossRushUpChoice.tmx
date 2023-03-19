@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="32" height="10" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="8" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="2" name="col" width="32" height="10" >
+  <data encoding="base64" compression="zlib">  
+   eNpjZGBgYBxATEtAa/NH7R+1fxRQHkcDiQG1NABG
+  </data>
+ </layer>
+ <layer id="3" name="lnk" width="32" height="10"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNpjYBhYwDnAdo/aP2r/qP0jL+/DAABuLwCR
+  </data>
+ </layer>
+ <objectgroup id="4" name="markers" opacity="0.5">
+  <object id="4" name="Door" type="TriggeredDoor" x="552" y="192" width="24" height="24">
+   <properties>
+    <property name="customId" value="closed"/>
+   </properties>
+  </object>
+  <object id="8" name="TierHotel" type="CustomEntity" x="312" y="192" width="24" height="24">
+   <properties>
+    <property name="customId" value="bossRushTierHotel"/>
+   </properties>
+  </object>
+  <object id="9" name="Knight" type="Npc" x="96" y="192" width="24" height="24">
+   <properties>
+    <property name="customId" value="bossRushNPC"/>
+   </properties>
+  </object>
+  <object id="10" name="DisableDecorator" type="DisableDecorator" x="192" y="72" width="264" height="144">
+   <properties>
+   </properties>
+  </object>
+  <object id="12" name="GodRayDeco_GodRay" type="GodRayDeco" x="144" y="216" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainAction"/>
+    <property name="blendMode" value="Add"/>
+    <property name="customId" value="godRayGreen"/>
+   </properties>
+  </object>
+  <object id="13" name="GodRayDeco_GodRay" type="GodRayDeco" x="192" y="216" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainAction"/>
+    <property name="blendMode" value="Add"/>
+    <property name="customId" value="godRayGreen"/>
+   </properties>
+  </object>
+  <object id="14" name="Light" type="CustomDeco" x="144" y="192" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainProps"/>
+    <property name="customId" value="brasero"/>
+   </properties>
+  </object>
+  <object id="15" name="Light" type="CustomDeco" x="480" y="192" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainProps"/>
+    <property name="customId" value="brasero"/>
+   </properties>
+  </object>
+  <object id="100" name="Blowgun" type="FixedLoot" x="620" y="192" width="24" height="24">
+    <properties>
+      <property name="item" value="Blowgun" />
+    </properties>
+  </object>
+ </objectgroup>
+</map>
