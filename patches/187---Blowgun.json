@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "ammo": 5000
+  },
   "synergy": [
     {
       "tag": "Poison",
@@ -8,7 +11,6 @@
   "props": {
     "speed": 2,
     "dps": 15000,
-    "ammo": 5000,
     "duration": 2000
   },
   "gameplayDesc": "{Poison@TO} its victims (::+dps:: DPS for ::duration:: sec). Inflicts {critical hits@CC} if you hit enemies in the back. ",
@@ -48,5 +50,5 @@
   "cellCost": 40,
   "__separator_group_ID": 5,
   "__separator_group_Name": "Ranged",
-  "__original_Index": 183
+  "__original_Index": 187
 }

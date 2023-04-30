@@ -15,7 +15,7 @@ function UnpackAll {
 }
 
 function PatchAll {
-    Copy-Item -Path "patches\183---Blowgun.json" -Destination "build\castledb\item\Ranged" -Force
+    Copy-Item -Path "patches\187---Blowgun.json" -Destination "build\castledb\item\Ranged" -Force
     Copy-Item -Path "patches\078---Blowgun.json" -Destination "build\castledb\weapon" -Force
     Copy-Item -Path "patches\PrisonTube2.tmx" -Destination "build\tiled\tmx\Prison" -Force
     Copy-Item -Path "patches\PrisonTube2NoSkel.tmx" -Destination "build\tiled\tmx\Prison" -Force

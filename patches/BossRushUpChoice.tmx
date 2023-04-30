@@ -68,6 +68,18 @@
     <property name="customId" value="brasero"/>
    </properties>
   </object>
+  <object id="16" name="Flasks" type="Flasks" x="624" y="24" width="96" height="72">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="18" name="nodeco" type="DisableDecorator" x="624" y="24" width="96" height="72">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
   <object id="100" name="Blowgun" type="FixedLoot" x="620" y="192" width="24" height="24">
     <properties>
       <property name="item" value="Blowgun" />
