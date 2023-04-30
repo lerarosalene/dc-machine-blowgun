@@ -12,7 +12,7 @@ This mod:
 
 With this changes blowgun without upgrades and 1-1-1 stats can melt anything up to final 5BC boss.
 
-Last compatibility check: 3.3
+Last compatibility check: 3.4
 
 ## Build it yourself
 
